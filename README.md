@@ -16,6 +16,8 @@
 
 Listed in the official MCP Registry as `express.asi/asi-express`.
 
+Tested on 22 November 2026 with 7 clients: plain HTTP, curl, the MCP Python SDK, the OpenAI Agents SDK, LangChain (langchain-mcp-adapters), LlamaIndex (llama-index-tools-mcp) and CrewAI (through its MCP adapter).
+
 ## What your agent can do with it
 - **Find** a tool for a task with a few keywords, across a catalog of public MCP servers and web APIs.
 - **Connect and run** it through the same connection.
