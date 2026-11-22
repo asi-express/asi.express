@@ -31,3 +31,4 @@ Wrong result, missing tool, or a client that does not connect? Open an [Issue](.
 
 ## About this repository
 Connect configs, examples and docs for ASI.EXPRESS. The service is hosted; its source code is not in this repository.
+Docs and images: [CC BY 4.0](LICENSE).
