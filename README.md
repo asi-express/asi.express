@@ -9,18 +9,19 @@
 ## Connect
 Point your MCP client at `https://asi.express/mcp` (Streamable HTTP, no sign-in). Without an MCP library: [examples/list-tools.sh](examples/list-tools.sh) (curl).
 
+Claude Code: save `{"mcpServers":{"asi":{"type":"http","url":"https://asi.express/mcp"}}}` as a file and start `claude --mcp-config <that file>`.
+
 ### Not tested by us yet
 These config formats come from each client's own docs; we have not yet run these clients against ASI.EXPRESS:
 
 | Client | Config |
 |---|---|
-| Claude Code | `claude mcp add --transport http asi-express https://asi.express/mcp` |
 | Cursor / any `mcp.json` client | [connect/mcp.json](connect/mcp.json) |
 | VS Code | [connect/vscode-mcp.json](connect/vscode-mcp.json) |
 
 Listed in the official MCP Registry as `express.asi/asi-express`.
 
-Tested on 22 November 2026 with 7 clients: plain HTTP, curl, the MCP Python SDK, the OpenAI Agents SDK, LangChain (langchain-mcp-adapters), LlamaIndex (llama-index-tools-mcp) and CrewAI (through its MCP adapter).
+Tested on 22 November 2026 with 8 clients: plain HTTP, curl, the MCP Python SDK, the OpenAI Agents SDK, LangChain (langchain-mcp-adapters), LlamaIndex (llama-index-tools-mcp), CrewAI (through its MCP adapter) and Claude Code.
 
 ## What your agent can do with it
 - **Find** a tool for a task with a few keywords, across a catalog of public MCP servers and web APIs.
