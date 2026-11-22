@@ -6,13 +6,17 @@
 
 <p align="center"><b>MCP endpoint:</b> <code>https://asi.express/mcp</code> &nbsp;·&nbsp; Streamable HTTP &nbsp;·&nbsp; no sign-in</p>
 
-## Connect in one line
-| Client | How |
+## Connect
+Point your MCP client at `https://asi.express/mcp` (Streamable HTTP, no sign-in). Without an MCP library: [examples/list-tools.sh](examples/list-tools.sh) (curl).
+
+### Not tested by us yet
+These config formats come from each client's own docs; we have not yet run these clients against ASI.EXPRESS:
+
+| Client | Config |
 |---|---|
 | Claude Code | `claude mcp add --transport http asi-express https://asi.express/mcp` |
 | Cursor / any `mcp.json` client | [connect/mcp.json](connect/mcp.json) |
 | VS Code | [connect/vscode-mcp.json](connect/vscode-mcp.json) |
-| Anything that speaks HTTP | [examples/list-tools.sh](examples/list-tools.sh) |
 
 Listed in the official MCP Registry as `express.asi/asi-express`.
 
