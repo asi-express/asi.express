@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "asi-express": {
+      "type": "http",
+      "url": "https://asi.express/mcp"
+    }
+  }
+}
