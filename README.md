@@ -8,6 +8,7 @@
 
 ## Connect
 Point your MCP client at `https://asi.express/mcp` (Streamable HTTP, no sign-in). Without an MCP library: [examples/list-tools.sh](examples/list-tools.sh) (curl).
+Step by step for each tested client: [asi.express/connect](https://asi.express/connect).
 
 Claude Code: save `{"mcpServers":{"asi":{"type":"http","url":"https://asi.express/mcp"}}}` as a file and start `claude --mcp-config <that file>`.
 
